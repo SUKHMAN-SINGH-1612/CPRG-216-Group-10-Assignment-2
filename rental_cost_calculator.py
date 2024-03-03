@@ -108,9 +108,9 @@ while flag.lower() == "y":
             break
         # check the value
         f_sel = int(f_sel)
-        sel_name = f_names[f_sel-1]
         while f_sel not in range(1, 6):
             f_sel = int(input("Please select from 1 to 5: "))
+        sel_name = f_names[f_sel-1]
         if selected_features.get(sel_name) is not None:
             print("\n")
             print("You've already selected this feature. Please select another one. ")
