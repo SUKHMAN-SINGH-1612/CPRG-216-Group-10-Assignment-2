@@ -46,7 +46,8 @@ while flag.lower() == "y":
     v_sel = int(input("Your Selection: "))
     # check selection range
     while v_sel not in range(1, 5):
-        v_sel = int(input("Please select from 1 to 4: "))
+        print("Invalid selection. Please enter one of the option numbers displayed.")
+        v_sel = int(input("Your Selection: "))
     v_price = VEHICLE_TYPE_MAP.get(v_types[v_sel-1])
     print(f"You have chosen a Compact. The base rental rate is ${
           v_price:.2f} per day")
@@ -57,7 +58,8 @@ while flag.lower() == "y":
     print("Step 2. Specify the duration of this vehicle rental.")
     input_days = int(input("Enter the number of days needed: "))
     while input_days <= 0:
-        input_days = int(input("Please input valid rental days: "))
+        print("Error: Value cannot be less than 1.")
+        input_days = int(input("Enter the number of days needed: "))
     # get basic price
     base_price = v_price * input_days
     # apply discount
@@ -100,14 +102,19 @@ while flag.lower() == "y":
             else:
                 print(f_info)
         f_sel = input("Enter option # or 0 to proceed: ")
+        # check if already selected type
         # end loop
         if f_sel in ('#','0'):
             break
         # check the value
         f_sel = int(f_sel)
+        sel_name = f_names[f_sel-1]
         while f_sel not in range(1, 6):
             f_sel = int(input("Please select from 1 to 5: "))
-        sel_name = f_names[f_sel-1]
+        if selected_features.get(sel_name) is not None:
+            print("\n")
+            print("You've already selected this feature. Please select another one. ")
+            continue
         selected_features.update({sel_name:1})
         f_price = EXTRA_FEATURES_MAP.get(sel_name)
         print("Feature: ", f"{sel_name} ",
