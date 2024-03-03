@@ -126,8 +126,7 @@ while flag.lower() == "y":
     # print success info
     print("\n")
     print(f"Success! Your reservation for a {input_days} day Compact rental is complete.")
-    print(f"The price (not including GST) is ${
-          updated_price/input_days} per day or ${updated_price} for the rental.")
+    print(f"The price (not including GST) is ${updated_price/input_days} per day or ${updated_price} for the rental.")
     flag = input("Do you want to rent another vehicle? (Y/N): ")
 
 # print price list
