@@ -1,0 +1,209 @@
+❯ /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 "/Users/feolive/Projects/SD_Major/OOP/1st semester/groups/Lab2/CP
+RG-216-Group-10-Assignment-2/rental_cost_calculator.py"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~ Welcome to Best Cars Inc. ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1. Choose the type of vehicle you wish to rent.
+Vehicle Type          Daily Rate
+ 1. Compact                   25
+ 2. Sedan                     35
+ 3. SUV                       50
+ 4. Luxury                    60
+Your Selection: 1
+You have chosen a Compact. The base rental rate is $25.00 per day
+
+
+Step 2. Specify the duration of this vehicle rental.
+Enter the number of days needed: 3
+Discount to be applied is 4.0%
+Your discounted rental rate is $24.00 per day
+
+
+Step 3. Choose your desired additional features or services.
+Option          Daily Rate
+ 1. GPS Navigation       5
+ 2. Mobile Wi-Fi         8
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 3
+Feature:  Child Seat  added for $ 2.00
+ 1. GPS Navigation       5
+ 2. Mobile Wi-Fi         8
+ 3. Child Seat           2  ✓
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 0
+
+
+Success! Your reservation for a 3 day Compact rental is complete.
+The price (not including GST) is $26.0 per day or $78.0 for the rental.
+Do you want to rent another vehicle? (Y/N): y
+Step 1. Choose the type of vehicle you wish to rent.
+Vehicle Type          Daily Rate
+ 1. Compact                   25
+ 2. Sedan                     35
+ 3. SUV                       50
+ 4. Luxury                    60
+Your Selection: 3
+You have chosen a Compact. The base rental rate is $50.00 per day
+
+
+Step 2. Specify the duration of this vehicle rental.
+Enter the number of days needed: 4
+Discount to be applied is 10.0%
+Your discounted rental rate is $45.00 per day
+
+
+Step 3. Choose your desired additional features or services.
+Option          Daily Rate
+ 1. GPS Navigation       5
+ 2. Mobile Wi-Fi         8
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 1
+Feature:  GPS Navigation  added for $ 5.00
+ 1. GPS Navigation       5  ✓
+ 2. Mobile Wi-Fi         8
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 2
+Feature:  Mobile Wi-Fi  added for $ 8.00
+ 1. GPS Navigation       5  ✓
+ 2. Mobile Wi-Fi         8  ✓
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 34
+Error: Invalid selection, please try again.
+ 1. GPS Navigation       5  ✓
+ 2. Mobile Wi-Fi         8  ✓
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 2
+
+
+You've already selected this feature. Please select another one. 
+ 1. GPS Navigation       5  ✓
+ 2. Mobile Wi-Fi         8  ✓
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 3
+Feature:  Child Seat  added for $ 2.00
+ 1. GPS Navigation       5  ✓
+ 2. Mobile Wi-Fi         8  ✓
+ 3. Child Seat           2  ✓
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 4
+Feature:  Toll Pass  added for $ 4.50
+ 1. GPS Navigation       5  ✓
+ 2. Mobile Wi-Fi         8  ✓
+ 3. Child Seat           2  ✓
+ 4. Toll Pass          4.5  ✓
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 5
+Feature:  Roadside Assistance Plus  added for $ 5.00
+ 1. GPS Navigation       5  ✓
+ 2. Mobile Wi-Fi         8  ✓
+ 3. Child Seat           2  ✓
+ 4. Toll Pass          4.5  ✓
+ 5. Roadside Assistance Plus 5  ✓
+Enter option # or 0 to proceed: 0
+
+
+Success! Your reservation for a 4 day Compact rental is complete.
+The price (not including GST) is $69.5 per day or $278.0 for the rental.
+Do you want to rent another vehicle? (Y/N): Y
+Step 1. Choose the type of vehicle you wish to rent.
+Vehicle Type          Daily Rate
+ 1. Compact                   25
+ 2. Sedan                     35
+ 3. SUV                       50
+ 4. Luxury                    60
+Your Selection: 2
+You have chosen a Compact. The base rental rate is $35.00 per day
+
+
+Step 2. Specify the duration of this vehicle rental.
+Enter the number of days needed: 11
+Discount to be applied is 20.0%
+Your discounted rental rate is $28.00 per day
+
+
+Step 3. Choose your desired additional features or services.
+Option          Daily Rate
+ 1. GPS Navigation       5
+ 2. Mobile Wi-Fi         8
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 0
+
+
+Success! Your reservation for a 11 day Compact rental is complete.
+The price (not including GST) is $28.0 per day or $308.0 for the rental.
+Do you want to rent another vehicle? (Y/N): y
+Step 1. Choose the type of vehicle you wish to rent.
+Vehicle Type          Daily Rate
+ 1. Compact                   25
+ 2. Sedan                     35
+ 3. SUV                       50
+ 4. Luxury                    60
+Your Selection: 5
+Invalid selection. Please enter one of the option numbers displayed.
+Your Selection: 4
+You have chosen a Compact. The base rental rate is $60.00 per day
+
+
+Step 2. Specify the duration of this vehicle rental.
+Enter the number of days needed: -1
+Error: Value cannot be less than 1.
+Enter the number of days needed: 0
+Error: Value cannot be less than 1.
+Enter the number of days needed: 1
+Discount to be applied is 0%
+Your discounted rental rate is $60.00 per day
+
+
+Step 3. Choose your desired additional features or services.
+Option          Daily Rate
+ 1. GPS Navigation       5
+ 2. Mobile Wi-Fi         8
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 1
+Feature:  GPS Navigation  added for $ 5.00
+ 1. GPS Navigation       5  ✓
+ 2. Mobile Wi-Fi         8
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5
+Enter option # or 0 to proceed: 5
+Feature:  Roadside Assistance Plus  added for $ 5.00
+ 1. GPS Navigation       5  ✓
+ 2. Mobile Wi-Fi         8
+ 3. Child Seat           2
+ 4. Toll Pass          4.5
+ 5. Roadside Assistance Plus 5  ✓
+Enter option # or 0 to proceed: 0
+
+
+Success! Your reservation for a 1 day Compact rental is complete.
+The price (not including GST) is $70.0 per day or $70 for the rental.
+Do you want to rent another vehicle? (Y/N): n
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~           RENTAL BILLING SUMMARY           ~~~
+Number of vehicles rented:                    4.00
+Amount due before tax:                      734.00
+GST:                                         36.70
+Total amount due:                           770.70
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thank you for choosing Best Cars!
