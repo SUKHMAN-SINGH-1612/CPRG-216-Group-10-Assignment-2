@@ -1,5 +1,7 @@
-❯ /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 "/Users/feolive/Projects/SD_Major/OOP/1st semester/groups/Lab2/CP
-RG-216-Group-10-Assignment-2/rental_cost_calculator.py"
+/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 "/Users/feolive/Projects/SD_Major/OOP/1st semester/groups/Lab2/CPRG-216-Group-10-Assignment-2/rental_cost_calculator.py"
+    ~/Projects/SD_Major/OOP/1st semester/groups/Lab2/CPRG-216-Group-10-Assignment-2    main !1                                                                   14:38:13  
+❯ /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 "/Users/feolive/Projects/SD_Major/OOP/1st semester/groups/Lab2/CPRG-216-Group-10-Assignment-2/rental_cost_calcula
+tor.py"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~ Welcome to Best Cars Inc. ~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20,19 +22,19 @@ Your discounted rental rate is $24.00 per day
 
 
 Step 3. Choose your desired additional features or services.
-Option          Daily Rate
- 1. GPS Navigation       5
- 2. Mobile Wi-Fi         8
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+Option                              Daily Rate
+ 1. GPS Navigation                        5.00
+ 2. Mobile Wi-Fi                          8.00
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 3
 Feature:  Child Seat  added for $ 2.00
- 1. GPS Navigation       5
- 2. Mobile Wi-Fi         8
- 3. Child Seat           2  ✓
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+ 1. GPS Navigation                        5.00
+ 2. Mobile Wi-Fi                          8.00
+ 3. Child Seat                            2.00  ✓
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 0
 
 
@@ -56,63 +58,63 @@ Your discounted rental rate is $45.00 per day
 
 
 Step 3. Choose your desired additional features or services.
-Option          Daily Rate
- 1. GPS Navigation       5
- 2. Mobile Wi-Fi         8
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+Option                              Daily Rate
+ 1. GPS Navigation                        5.00
+ 2. Mobile Wi-Fi                          8.00
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 1
 Feature:  GPS Navigation  added for $ 5.00
- 1. GPS Navigation       5  ✓
- 2. Mobile Wi-Fi         8
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+ 1. GPS Navigation                        5.00  ✓
+ 2. Mobile Wi-Fi                          8.00
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 2
 Feature:  Mobile Wi-Fi  added for $ 8.00
- 1. GPS Navigation       5  ✓
- 2. Mobile Wi-Fi         8  ✓
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+ 1. GPS Navigation                        5.00  ✓
+ 2. Mobile Wi-Fi                          8.00  ✓
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 34
 Error: Invalid selection, please try again.
- 1. GPS Navigation       5  ✓
- 2. Mobile Wi-Fi         8  ✓
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+ 1. GPS Navigation                        5.00  ✓
+ 2. Mobile Wi-Fi                          8.00  ✓
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 2
 
 
 You've already selected this feature. Please select another one. 
- 1. GPS Navigation       5  ✓
- 2. Mobile Wi-Fi         8  ✓
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+ 1. GPS Navigation                        5.00  ✓
+ 2. Mobile Wi-Fi                          8.00  ✓
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 3
 Feature:  Child Seat  added for $ 2.00
- 1. GPS Navigation       5  ✓
- 2. Mobile Wi-Fi         8  ✓
- 3. Child Seat           2  ✓
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+ 1. GPS Navigation                        5.00  ✓
+ 2. Mobile Wi-Fi                          8.00  ✓
+ 3. Child Seat                            2.00  ✓
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 4
 Feature:  Toll Pass  added for $ 4.50
- 1. GPS Navigation       5  ✓
- 2. Mobile Wi-Fi         8  ✓
- 3. Child Seat           2  ✓
- 4. Toll Pass          4.5  ✓
- 5. Roadside Assistance Plus 5
+ 1. GPS Navigation                        5.00  ✓
+ 2. Mobile Wi-Fi                          8.00  ✓
+ 3. Child Seat                            2.00  ✓
+ 4. Toll Pass                             4.50  ✓
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 5
 Feature:  Roadside Assistance Plus  added for $ 5.00
- 1. GPS Navigation       5  ✓
- 2. Mobile Wi-Fi         8  ✓
- 3. Child Seat           2  ✓
- 4. Toll Pass          4.5  ✓
- 5. Roadside Assistance Plus 5  ✓
+ 1. GPS Navigation                        5.00  ✓
+ 2. Mobile Wi-Fi                          8.00  ✓
+ 3. Child Seat                            2.00  ✓
+ 4. Toll Pass                             4.50  ✓
+ 5. Roadside Assistance Plus              5.00  ✓
 Enter option # or 0 to proceed: 0
 
 
@@ -136,12 +138,12 @@ Your discounted rental rate is $28.00 per day
 
 
 Step 3. Choose your desired additional features or services.
-Option          Daily Rate
- 1. GPS Navigation       5
- 2. Mobile Wi-Fi         8
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+Option                              Daily Rate
+ 1. GPS Navigation                        5.00
+ 2. Mobile Wi-Fi                          8.00
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 0
 
 
@@ -171,26 +173,26 @@ Your discounted rental rate is $60.00 per day
 
 
 Step 3. Choose your desired additional features or services.
-Option          Daily Rate
- 1. GPS Navigation       5
- 2. Mobile Wi-Fi         8
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+Option                              Daily Rate
+ 1. GPS Navigation                        5.00
+ 2. Mobile Wi-Fi                          8.00
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 1
 Feature:  GPS Navigation  added for $ 5.00
- 1. GPS Navigation       5  ✓
- 2. Mobile Wi-Fi         8
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5
+ 1. GPS Navigation                        5.00  ✓
+ 2. Mobile Wi-Fi                          8.00
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00
 Enter option # or 0 to proceed: 5
 Feature:  Roadside Assistance Plus  added for $ 5.00
- 1. GPS Navigation       5  ✓
- 2. Mobile Wi-Fi         8
- 3. Child Seat           2
- 4. Toll Pass          4.5
- 5. Roadside Assistance Plus 5  ✓
+ 1. GPS Navigation                        5.00  ✓
+ 2. Mobile Wi-Fi                          8.00
+ 3. Child Seat                            2.00
+ 4. Toll Pass                             4.50
+ 5. Roadside Assistance Plus              5.00  ✓
 Enter option # or 0 to proceed: 0
 
 

@@ -84,7 +84,7 @@ while flag.lower() == "y":
 
     # step 3: feature fees
     print("Step 3. Choose your desired additional features or services.")
-    f_title = "Option" + "Daily Rate".rjust(PHASE_SHIFT)
+    f_title = "Option" + "Daily Rate".rjust(PHASE_SHIFT * 2)
 
     print(f_title)
     f_names = list(EXTRA_FEATURES_MAP.keys())
@@ -96,7 +96,7 @@ while flag.lower() == "y":
             f_item = f_names[i-1]
             ps = len(f_title)-(len(f_item) + 4)
             val = EXTRA_FEATURES_MAP.get(f_item)
-            f_info = f" {i}. {f_item}{val:>{ps}}"
+            f_info = f" {i}. {f_item}{val:>{ps},.2f}"
             if selected_features.get(f_item) is not None:
                 print(f_info, " ✓")
             else:
